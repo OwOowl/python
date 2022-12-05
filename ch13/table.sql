@@ -5,3 +5,4 @@ CREATE TABLE tblmember2 (
  YEAR CHAR(4) NOT NULL 
 )
 
+SELECT * FROM tblmember2;

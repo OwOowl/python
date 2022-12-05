@@ -17,6 +17,7 @@ while True:
     sql = "INSERT INTO tblmember2 VALUES('" + data1 + "','" + data2 + "','" + data3 + "','" + data4 + "')"
     cur.execute(sql)
 
+# while문 종료 시 DB에 저장
 con.commit()
 con.close()
 
